@@ -9,7 +9,7 @@
 
 int main(void)
 {
-   puts("\"Programming is like building a multilin   gual puzzle");
-   return (0);
+puts("\"Programming is like building a multili gual puzzle");
+return (0);
 
-} 
+}

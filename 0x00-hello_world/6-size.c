@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main -entry
+ * main -displays sizes of different types
  *
- * Return: always 0
+ * Return: always 0 (Success)
  */
+
 int main(void)
 {
 char c;
@@ -19,3 +20,4 @@ printf("Size of a long int: %1d byte(s)\n", sizeof(li));
 printf("Size of a long long int: %1d byte(s)\n", sizeof(lli));
 printf("Size of a float: %1d byte(s)\n", sizeof(f));
 return (0);
+}

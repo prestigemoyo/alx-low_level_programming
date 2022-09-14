@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * islower- function to check for lowercase 
+ * islower- function to check for lowercase
  *
- * @c: is the int that will be used for the argument in the 
+ * @c: is the int that will be used for the argument in the
  * Return: 0
  */
 
@@ -14,6 +14,6 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	
+	else
 		return (0);
 }

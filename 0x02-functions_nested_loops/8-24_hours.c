@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * jack_bauer - func that prints every minute of
  * the day of Jack Bauer, starting from 00:00
@@ -10,7 +9,6 @@
  */
 
 void jack_bauer(void)
-
 {
 	int hours = 0;
 	int minutes = 0;

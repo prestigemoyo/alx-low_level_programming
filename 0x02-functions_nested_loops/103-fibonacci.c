@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	unsigned long n10, n2 = 1, n3 = 0, sum = 0;
+	unsigned long n1, n2 = 1, n3 = 0, sum = 0;
 
 	while (n3 <= 4000000)
 	{

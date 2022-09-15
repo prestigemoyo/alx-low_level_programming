@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints sum of even fibonacci suit
- * suit elements
+ * main - prints 0ut first 50
  * fibonnacci suit numbers
  * Return: return 0
  */
@@ -13,17 +12,18 @@ int main(void)
 
 	for (inc = 0; inc < 50; inc++)
 	{
-		n3 = n1 + n2;
+	n3 = n1 + n2;
 
-		printf("%lu", n3);
-		n1 = n2;
-		n2 = n3;
+	printf("%lu", n3);
+	n1 = n2;
+	n2 = n3;
 
-		if (inc == 49)
-		printf("\n");
-		else
-		printf(", ");
+	if (inc == 49)
+	printf("\n");
+	else
+	printf(", ");
 	}
+
 	return (0);
 
 }

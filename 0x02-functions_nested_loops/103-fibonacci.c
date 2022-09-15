@@ -17,6 +17,6 @@ n2 = n3;
 if ((n1 % 2) == 0)
 sum += n1;
 }
-printf("%1d\n", sum);
+printf("%1ld\n", sum);
 return (0);
 }

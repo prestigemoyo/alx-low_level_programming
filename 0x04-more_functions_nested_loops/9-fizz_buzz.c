@@ -11,7 +11,6 @@ int main(void)
 	while (h <= 100)
 	{
 		if (h % 3 == 0 && h % 5 == 0)
-
 			printf("fizzBuzz ");
 		else if (h % 5 == 0)
 		{
@@ -19,7 +18,7 @@ int main(void)
 			{
 				printf("Buzz");
 
-				printf("\n");
+				printf('\n');
 			}
 			else
 				printf("Buzz ");

@@ -18,7 +18,7 @@ int main(void)
 			{
 				printf("Buzz");
 
-				printf('\n');
+				printf("\n");
 			}
 			else
 				printf("Buzz ");

@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /***
- * main - function that prints the largest prime factor
- * of a number
+ *main- function that prints the largest prime factor
+ *of a number
  * *Return: returns 0
  */
 
 int main(void)
+
 {
 	long number = 612852475143;
 	int inc;

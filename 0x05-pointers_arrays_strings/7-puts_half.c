@@ -1,36 +1,30 @@
 #include "main.h"
-
 /**
- * puts_half - print reverse characters.
- * @str: validate the character
- * Return: Always 0.
+ * puts_half - print half array
+ * @str: string
  */
 void puts_half(char *str)
 {
-	int i = 0, n;
+	int a = 0;
+	int b = 0;
 
-
-	while (str[i] != '\0')
+	while (str[a] != '\0')
 	{
-		i++;
+		a++;
 	}
-	if (i % 2 == 1)
+	a++;
+	if (a % 2 == 0)
 	{
-		n = (i + 1) / 2;
-		while (str[n] != '\0')
-		{
-		_putchar(str[n]);
-		n++;
-		}
+		b = a / 2;
 	}
 	else
 	{
-		n = (i / 2);
-		while (str[n] != '\0')
-		{
-			_putchar(str[n]);
-			n++;
-		}
+		b = (a - 1) / 2;
+	}
+	while (str[b] != '\0')
+	{
+		_putchar(str[b]);
+		b++;
 	}
 	_putchar('\n');
 }
